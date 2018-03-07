@@ -1,0 +1,16 @@
+PODS:
+  - CryptoUtilObjC (0.1.0)
+
+DEPENDENCIES:
+  - CryptoUtilObjC (from `../`)
+
+EXTERNAL SOURCES:
+  CryptoUtilObjC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CryptoUtilObjC: ee9c8c0cb489ace6033d80cf3d8e962d3a72f9cb
+
+PODFILE CHECKSUM: 37dc06dec473f8feb50a2df82ddb854604c90202
+
+COCOAPODS: 1.4.0

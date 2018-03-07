@@ -1,0 +1,6 @@
+framework module CryptoUtilObjC {
+  umbrella header "CryptoUtilObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}
