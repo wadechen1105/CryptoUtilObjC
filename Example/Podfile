@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CryptoUtilObjC_Example' do
+  pod 'CryptoUtilObjC', :path => '../'
+
+  target 'CryptoUtilObjC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
