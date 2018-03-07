@@ -22,7 +22,7 @@ pod 'CryptoUtilObjC'
 
 ## Author
 
-wadechen1105@gmail.com, wade.chen@webcomm.com.tw
+wadechen1105@gmail.com
 
 ## License
 
