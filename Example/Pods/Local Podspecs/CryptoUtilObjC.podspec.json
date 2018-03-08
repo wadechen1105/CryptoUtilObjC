@@ -1,9 +1,9 @@
 {
   "name": "CryptoUtilObjC",
   "version": "0.1.0",
-  "summary": "A short description of CryptoUtilObjC.",
+  "summary": "A convenient tool library - use objc",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wadechen1105@gmail.com/CryptoUtilObjC",
+  "homepage": "https://github.com/wadechen1105/CryptoUtilObjC",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "wadechen1105@gmail.com": "wade.chen@webcomm.com.tw"
   },
   "source": {
-    "git": "https://github.com/wadechen1105@gmail.com/CryptoUtilObjC.git",
+    "git": "https://github.com/wadechen1105/CryptoUtilObjC.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "CryptoUtilObjC/Classes/**/*"
 }

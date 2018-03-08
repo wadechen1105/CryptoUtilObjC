@@ -78,7 +78,7 @@ static const UInt8 kKeychainItemIdentifier[] = "com.apple.dts.KeychainUI\0";
         // No pointer to the newly-added items is needed, so pass NULL for the second parameter:
         OSStatus errorcode = SecItemAdd((__bridge CFDictionaryRef)item, NULL);
         
-        NSLog(@"[save data] error code : %d", errorcode);
+        NSLog(@"[save data] error code : %d", (int)errorcode);
     }
     return NO;
 }
@@ -138,7 +138,7 @@ static const UInt8 kKeychainItemIdentifier[] = "com.apple.dts.KeychainUI\0";
 /// check keychain status
 - (void) checkError: (OSStatus) status
 {
-    NSLog(@"check --> error code: %d", status);
+    NSLog(@"check --> error code: %d", (int)status);
     if (status == errSecSuccess) {
         // match success
         return;

@@ -11,6 +11,7 @@
 #endif
 
 #import "KeychainItem.h"
+#import "TouchIdUtil.h"
 
 FOUNDATION_EXPORT double CryptoUtilObjCVersionNumber;
 FOUNDATION_EXPORT const unsigned char CryptoUtilObjCVersionString[];
