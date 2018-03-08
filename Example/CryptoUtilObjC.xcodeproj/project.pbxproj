@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D45997E3A532B1E05DD9C3E /* CryptoUtilObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CryptoUtilObjC.podspec; path = ../CryptoUtilObjC.podspec; sourceTree = "<group>"; };
+		1D45997E3A532B1E05DD9C3E /* CryptoUtilObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CryptoUtilObjC.podspec; path = ../CryptoUtilObjC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		363C80FAB4D78AD90FD839DD /* Pods-CryptoUtilObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoUtilObjC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoUtilObjC_Example/Pods-CryptoUtilObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4FC65C871A31A050EF59B816 /* Pods_CryptoUtilObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoUtilObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD3CAE320511C2500AB681D /* WHCCKeychainTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHCCKeychainTestViewController.h; sourceTree = "<group>"; };

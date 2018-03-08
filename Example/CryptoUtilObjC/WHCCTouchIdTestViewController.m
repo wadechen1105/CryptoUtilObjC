@@ -37,5 +37,18 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)handleTouchId:(UISegmentedControl *)sender {
+    switch ([sender selectedSegmentIndex]) {
+        case 0:
+            NSLog(@"I'm A");
+            break;
+        case 1:
+            NSLog(@"I'm B");
+            break;
+        default:
+            NSLog(@"Something Error");
+            break;
+    }
+}
 
 @end
