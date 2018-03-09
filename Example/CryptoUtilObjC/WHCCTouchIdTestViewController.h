@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@import CryptoUtilObjC;
 
 @interface WHCCTouchIdTestViewController : UIViewController
 

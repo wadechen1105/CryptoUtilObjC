@@ -8,7 +8,7 @@
 
 @interface TouchIdUtil : NSObject
 
-- (void)canEvaluatePolicy;
+- (BOOL)canEvaluatePolicy;
 - (void)evaluatePolicy;
 - (void)evaluatePolicy: (NSString*)description;
 

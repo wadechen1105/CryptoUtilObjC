@@ -1,5 +1,5 @@
 PODS:
-  - CryptoUtilObjC (0.1.0)
+  - CryptoUtilObjC (0.1.1)
 
 DEPENDENCIES:
   - CryptoUtilObjC (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CryptoUtilObjC: f45d8963ab11d8cd61f519df36c02dd910fc8188
+  CryptoUtilObjC: fb1f8bc3ca20bce7c71f50ec27ac4655350218db
 
 PODFILE CHECKSUM: cc8b268a3fc1878f5e498586740c1f06abac7c58
 

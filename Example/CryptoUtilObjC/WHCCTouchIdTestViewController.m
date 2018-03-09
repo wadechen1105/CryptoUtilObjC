@@ -12,7 +12,10 @@
 
 @end
 
-@implementation WHCCTouchIdTestViewController
+@implementation WHCCTouchIdTestViewController {
+    TouchIdUtil *touchid;
+    __weak IBOutlet UILabel *text;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -40,7 +43,7 @@
 - (IBAction)handleTouchId:(UISegmentedControl *)sender {
     switch ([sender selectedSegmentIndex]) {
         case 0:
-            NSLog(@"I'm A");
+            [touchid canEvaluatePolicy];
             break;
         case 1:
             NSLog(@"I'm B");

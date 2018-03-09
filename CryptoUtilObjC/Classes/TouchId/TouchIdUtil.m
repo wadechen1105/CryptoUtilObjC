@@ -11,7 +11,7 @@
 
 @implementation TouchIdUtil
 
-- (void)canEvaluatePolicy
+- (BOOL)canEvaluatePolicy
 {
     LAContext *context = [[LAContext alloc] init];
     __block  NSString *message;
@@ -24,10 +24,11 @@
         message = [NSString stringWithFormat:@"Touch ID / Face ID is available"];
     }
     else {
-        message = [NSString stringWithFormat:@"Touch ID / Face ID is not available"];
+        message = [NSString stringWithFormat:@"Touch ID / Face ID is not available --> %@", error.description];
     }
     
     NSLog(@"can evaluate? %@", message);
+    return success;
 }
 
 - (void)evaluatePolicy
