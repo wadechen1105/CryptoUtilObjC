@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CryptoUtilObjC'
-  s.version          = '0.1.102'
+  s.version          = '0.1.103'
   s.summary          = 'A convenient tool library - use objc'
 
 # This description is used to generate tags and improve search results.

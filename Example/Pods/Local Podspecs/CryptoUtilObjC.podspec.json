@@ -1,6 +1,6 @@
 {
   "name": "CryptoUtilObjC",
-  "version": "0.1.101",
+  "version": "0.1.102",
   "summary": "A convenient tool library - use objc",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wadechen1105/CryptoUtilObjC",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wadechen1105/CryptoUtilObjC.git",
-    "tag": "0.1.101"
+    "tag": "0.1.102"
   },
   "platforms": {
     "ios": "9.0"

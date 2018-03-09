@@ -31,21 +31,29 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 - (IBAction)handleTouchId:(UISegmentedControl *)sender {
     switch ([sender selectedSegmentIndex]) {
-        case 0:
+        case 0: {
+            BOOL result = [TouchIdUtil canEvaluatePolicy];
+            if(result) {
+                text.text = @"Touch ID / Face ID is available";
+            } else {
+                text.text = @"[WARN] Touch ID / Face ID is unavailable";
+            }
             break;
-        case 1:
-            NSLog(@"I'm B");
+        }
+        case 1:{
+            [TouchIdUtil evaluatePolicy];
             break;
+        }
         default:
             NSLog(@"Something Error");
             break;

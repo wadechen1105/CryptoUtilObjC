@@ -33,7 +33,7 @@
 
 + (void)evaluatePolicy
 {
-    [self evaluatePolicy:@""];
+    [self evaluatePolicy:@"Unlock access to locked feature"];
 }
 
 + (void)evaluatePolicy: (NSString*)description
