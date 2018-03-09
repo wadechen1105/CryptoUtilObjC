@@ -11,7 +11,7 @@
 
 @implementation TouchIdUtil
 
-- (BOOL)canEvaluatePolicy
++ (BOOL)canEvaluatePolicy
 {
     LAContext *context = [[LAContext alloc] init];
     __block  NSString *message;
@@ -31,12 +31,12 @@
     return success;
 }
 
-- (void)evaluatePolicy
++ (void)evaluatePolicy
 {
     [self evaluatePolicy:@""];
 }
 
-- (void)evaluatePolicy: (NSString*)description
++ (void)evaluatePolicy: (NSString*)description
 {
     LAContext *context = [[LAContext alloc] init];
     __block NSString* message;
